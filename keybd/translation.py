@@ -98,8 +98,8 @@ class Translation:
             if cho == '':
                 cho = 'ㅇ'
             result = compose(self.HANGUL_COMBINE_CHO.get(cho, None), 
-                                self.HANGUL_COMBINE_JUNG.get(jung, None), 
-                                self.HANGUL_COMBINE_JONG.get(jong, None))
+                             self.HANGUL_COMBINE_JUNG.get(jung, None), 
+                             self.HANGUL_COMBINE_JONG.get(jong, None))
             
         except Exception:
             pass
